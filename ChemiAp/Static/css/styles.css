@@ -50,7 +50,7 @@ body {
 
 #menu li a:hover {
   color: rgb(204, 0, 0);
-  background: #F2F2F2;
+  background: #1616165b;
 }
 
 #menu input {
@@ -83,7 +83,7 @@ body {
   height: auto;
   overflow: hidden;
   width: 170px;
-  background: #4c4c4c;
+  background: #161616;
   position: absolute;
   z-index: 1200;
   display: none;
@@ -303,6 +303,11 @@ body {
 .lead {
   color: white;
   text-shadow: 2px 2px 0px #333333, 5px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: #3b0000;
+  text-align: center;
+}
+.ferileads{
+  background-color: #3b0000;
 }
 
 .app-form-button:hover {
@@ -348,18 +353,23 @@ footer {
 }
 
 #contact {
+  text-align: center;
   background: #3b0101;
-  padding: 25px;
+  padding: 20px;
+  padding-top: 5px;
   margin: 50px 0;
   color: white;
+
 }
 
-fieldset {
+#contact fieldset {
   border: medium none !important;
   margin: 0 0 10px;
   min-width: 100%;
-  padding: 0;
+  padding: 2px;
   width: 100%;
+  background-color: white;
+  color: black;
 }
 
 #contact input[type="text"],
@@ -408,3 +418,4 @@ fieldset {
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
+

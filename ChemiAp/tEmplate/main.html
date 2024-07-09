@@ -19,9 +19,9 @@
         <li>
             <a class="dropdown-arrow" href="{% url 'menu' %}">Menu</a>
             <ul class="sub-menus">
-                <li><a href="/">Pepperoni Pizza</a></li>
-                <li><a href="/">Vegetarian Pizza</a></li>
-                <li><a href="/">Supreme Pizza</a></li>
+                <li><a href="{% url 'menu' %}">Pepperoni Pizza</a></li>
+                <li><a href="{% url 'menu' %}">Vegetarian Pizza</a></li>
+                <li><a href="{% url 'menu' %}">Supreme Pizza</a></li>
             </ul>
         </li>
         <li><a href="{% url 'about' %}">About</a></li>
@@ -36,7 +36,7 @@
 </div>
 
 <footer class="text-center my-5">
-    <p>&copy; Ananos Pizza Website 2024</p>
+    <p>&copy; Anano's Pizza Website 2024</p>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
