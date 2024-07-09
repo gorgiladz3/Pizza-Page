@@ -1,0 +1,122 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block main %}
+
+
+<div class="container">
+  <header>
+    <h1 class="text-center my-5 Ananos-Pizza">Ananos Pizza</h1>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 samesize  d-flex align-items-center justify-content-center">
+        <div style="text-align: center;">
+          <h2>Welcome to Our Pizza Restaurant</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore consectetur voluptas nostrum, assumenda voluptates eos nobis rerum quasi! Aut nobis, sint deserunt quam cumque dolorem et animi saepe aliquid ex.</p>
+          
+      </div>
+      </div>
+      <div class="col-md-6 d-none d-md-block">
+        <img
+          src="https://static.vecteezy.com/system/resources/thumbnails/027/141/485/small_2x/pizza-created-with-generative-ai-png.png"
+          class="img-fluid pizzaimageo"
+          alt="Pizza Restaurant"
+        />
+      </div>
+    </div>
+  </div>
+
+  <section id="pizza-menu">
+    <h1 class="text-center my-5 Ananos-Pizza">Menu</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img
+                    src="https://atsloanestable.com/wp-content/uploads/2023/06/new-york-style-pizza2.jpg"
+                    class="card-img-top"
+                    alt="Pizza 1"
+                />
+                <div class="card-body text-center colorcard">
+                    <h5 class="card-title">Pepperoni Pizza</h5>
+                    <p class="card-text">
+                        A classic pepperoni pizza with fresh ingredients.
+                    </p>
+                    <h1>$40</h1>
+                    <a href="#" class="btn colourbuttonis">Order Now</a>
+                  
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img
+                    src="https://cdn.loveandlemons.com/wp-content/uploads/2023/02/vegetarian-pizza.jpg"
+                    class="card-img-top"
+                    alt="Pizza 2"
+                />
+                <div class="card-body text-center colorcard">
+                    <h5 class="card-title">Vegetarian Pizza</h5>
+                    <p class="card-text">
+                        Fresh and healthy vegetarian pizza loaded with veggies.
+                    </p>
+                    <h1>$20</h1>
+                    <a href="" class="btn buttonisferi">Order now</a>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img
+                    src="https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg"
+                    class="card-img-top"
+                    alt="Pizza 3"
+                />
+                <div class="card-body text-center colorcard">
+                    <h5 class="card-title">Supreme Pizza</h5>
+                    <p class="card-text">A supreme pizza with a variety of toppings.</p>
+                    <h1>$60</h1>
+                    
+                    <a href="#" class="btn colourbuttonis">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+<h1 class="text-center my-5 Ananos-Pizza">About Us</h1>
+<section class="about-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <p class="lead">
+          Welcome to Ananos Pizza, where passion meets taste! Founded with a
+          love for authentic flavors and a commitment to quality, Ananos Pizza
+          has been delighting pizza lovers since 2024.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <form id="contact" action="" method="post">
+    <h1 class="contact-heading">Contact Us Today</h1>
+    
+    <fieldset class="contact-section">
+      <h2 class="contact-info">Email:</h2>
+      <p>Ananospizza2005@gmail.com</p>
+    </fieldset>
+    
+    <fieldset class="contact-section">
+      <h2 class="contact-info">Phone:</h2>
+      <p>+995 678 788 992</p>
+    </fieldset>
+    
+    <fieldset class="contact-section">
+      <h2 class="contact-info">Find Us:</h2>
+      <p>Ilia Chavchavadze #79</p>
+    </fieldset>
+  </form>
+</div>
+
+{% endblock main %}
